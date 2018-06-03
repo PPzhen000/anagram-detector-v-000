@@ -16,7 +16,7 @@ class Anagram
         anagrams << ele
       end
     end
-    anagrams 
+    anagrams
   end
 
 end
