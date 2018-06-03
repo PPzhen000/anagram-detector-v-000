@@ -1,4 +1,3 @@
-require 'pry'
 class Anagram
 
   attr_accessor :word
@@ -11,8 +10,7 @@ class Anagram
     anagrams = []
     possible_anagrams = %w(possible_anagrams)
     possible_anagrams.each do |ele|
-      if ele.split("").sort == @word.sort
-        binding.pry 
+      if ele.split("").sort == @word.split("").sort
         anagrams << ele
       end
     end
